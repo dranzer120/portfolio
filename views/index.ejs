@@ -1,11 +1,28 @@
 <html>
     <head>
-        <title> Tom's Portfolio </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <title> Jason's Portfolio </title>
     </head>
 
     <body>
-        <div>
-            I am <%= person.firstName %> <%= person.lastName %>
+        <div class='container'>
+                <nav class="navbar fixed-top navbar-light bg-inverse">
+                    <a class="navbar-brand" href="contact">Contact</a>
+                </nav>
+                <h1>
+                    <p id="name"><%= person.firstName %> <%= person.lastName %></p>
+                    <p id="title">Junior Web Developer</p>
+                </h1>
+                
+                <p id='description'> Welcome to my Portfolio! Feel free to explore around the webpage and leave comments.<br/>
+                    Below are some of the links to my most recent projects.
+                </p>
+
+                <a href='https://jt-vstda.herokuapp.com/'><button type="button" class="btn btn-link">Project: VSTDA</button></a>
+
+
+                
         </div>
     </body>
 </html>

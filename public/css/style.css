@@ -1,0 +1,50 @@
+h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 300px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(/img/intro-bg.jpg);
+  background-size: cover
+}
+#name{
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 350;
+  color:white;
+  font-size: 200%;
+}
+#description{
+      text-align: center;
+
+}
+input{
+    margin-bottom:10px;
+}
+#title{
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color:white;
+    font-size:50%
+}
+
+#contact{
+    margin-top: 50px;
+    color:white;
+    background: url(/img/contact-us.jpg);
+    background-size: cover;
+}
+
+#thanks{
+    padding-top: 100px;
+    color:black;
+    background: url(/img/thanks.jpg);
+    background-size: cover; 
+}
+
+#thanks_content{
+    margin-top: 50px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}

@@ -1,32 +1,28 @@
 <html>
     <head>
-        <title> Contact Tom </title>
+        <title> Contact Jason </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
     </head>
     
-    <body>
+    <body  id='contact'>
         <div class ='container'>
-            <form action="/thanks" method="POST">
-                <div class='form-group'>
-                    <div class = 'col-md-5'>
-                        <label for="firstName">First Name:</label>
-                        <input name="firstName" class='form-control' type="text"/>
-                    </div>
-                    <div class = 'col-md-5'>
-                        <label for="lastName">Last Name:</label>
-                        <input name="lastName" class='form-control' type="text"/>
-                    </div>
-                    <div class = 'col-md-5'>
-                        <label for="email">Email:</label>
-                        <input name="email" class='form-control' type="text"/>
-                    </div>
+            <div class ='row justify-content-center'>
+                <div class = 'col-md-8'>  
+                    <form action="/thanks" method="POST">
+                            <div class='form-group'>
+                                <label for="firstName">First Name:</label>
+                                <input name="firstName" class='form-control' type="text"/>
+                                <label for="lastName">Last Name:</label>
+                                <input name="lastName" class='form-control' type="text"/>
+                                <label for="email">Email:</label>
+                                <input name="email" class='form-control' type="text"/>
+                                <button type="submit" class='btn btn-primary btn-block'>Submit</button>
+                            </div> 
+                    </form>
                 </div>
-                <div class = 'form-group'>
-                    <div class = 'col-md-5'>
-                        <input type="submit" class='form-control'/>
-                    </div>
-                </div>
-            </form>
+            </div>
         </div>
     </body>
 </html>

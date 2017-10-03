@@ -7,6 +7,7 @@ const app = express();
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true}))
+app.use(express.static(__dirname + '/public'));
 
 app.set('views', './views');
 
@@ -16,7 +17,7 @@ app.get('/', (req, res) => {
     const data = {
         person: {
             firstName: 'Jason',
-            lastName: 'Scott',
+            lastName: 'Tong',
         }
     }
     res.render('index', data);
